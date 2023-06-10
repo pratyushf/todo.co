@@ -1,0 +1,69 @@
+form{
+    background-color: rgb(178, 242, 167);
+    padding: 20px;
+    width:100vw
+}
+
+.taskip{
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(241, 241, 148);
+    margin: 10px;
+    border-radius: 10px;
+    width: 60%;
+}
+#task-input{
+    width: 40%;
+    border-radius: 5px;
+}
+#deadline-input{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.but{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cre{
+    justify-content: left;
+    display: flex;
+}
+
+.details{
+    display: grid;
+    background-color: rgb(248, 183, 104);
+    padding: 10px;
+    grid-template-columns: 4fr 4fr 4fr 1fr;
+    width: 100vw;
+}
+
+.det{
+    padding: 10px;
+    border: 2px solid brown;
+    margin: 5px;
+    background-color: rgba(198, 75, 81, 0.479);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.field{
+    width: 60px;
+    display: grid;
+    text-align: left;
+}
+
+.delbut{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgba(235, 17, 17, 0.642);
+    font-size: 2rem;
+    color: aliceblue;
+}
